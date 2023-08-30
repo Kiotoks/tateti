@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 10px;
+  width: 300px;
+  margin: auto;
+  height: 300px;
+  border-radius: 5%;
+}
+.grid-container > div {
+  display: flex;
+  border-radius: 10%;
+  background-color:rgb(204, 52, 166);
+  text-align: center;
+}
+
+h1, h3{
+	margin: auto;
+  color: rgb(204, 52, 166);
+  padding: 10px;
+}
+p{
+  margin: auto;
+  padding: 10px;
+  font-size:65px;
+  color: rgb(44, 44, 44);
+}
+
+button{
+  background-color: rgb(204, 52, 166);
+  border: 0;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  
+}
+
+body {
+  font-family: sans-serif;
+	background-color: rgb(44, 44, 44);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
