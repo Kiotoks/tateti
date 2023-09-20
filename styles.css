@@ -9,10 +9,17 @@
   border-radius: 5%;
 }
 .grid-container > div {
-  display: flex;
+  display: grid;
+  place-items: center;
   border-radius: 10%;
   background-color:rgb(204, 52, 166);
   text-align: center;
+  margin: auto;
+  padding: 10px;
+  width: 1em;
+  height: 1em;
+  font-size:65px;
+  color: rgb(44, 44, 44);
 }
 
 h1, h3{
@@ -23,15 +30,16 @@ h1, h3{
 p{
   margin: auto;
   padding: 10px;
-  font-size:65px;
+  font-size:20px;
   color: rgb(44, 44, 44);
 }
 
 button{
   background-color: rgb(204, 52, 166);
   border: 0;
-  border-radius: 10%;
-  width: 50px;
+  border-radius:20%;
+  font-size: 14px;
+  width: 100px;
   height: 50px;
   margin: auto;
   
